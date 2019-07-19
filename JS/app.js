@@ -163,6 +163,7 @@ $(() => {
     $('#foodButton').on('click', () =>{
 
         $('.foodContainer').empty();
+        $('.recipeContainer').empty();
         //pulls the value from the search bar
         let searchBar = $('#searchBar').val();
         console.log(searchBar);
@@ -246,6 +247,7 @@ $(() => {
     $('#recipeButton').on('click', () => {
 
         $('.foodContainer').empty();
+        $('.recipeContainer').empty();
         let searchBar = $('#searchBar').val();
         let uri = encodeURI(searchBar);
 

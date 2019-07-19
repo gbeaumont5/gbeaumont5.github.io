@@ -120,14 +120,15 @@ header {
 }
 
 #video {
+    width: 100%;
+    height: 80%;
+}
+
+#video source{
     position: relative;
     right: 0;
     bottom: 0;
-    width: 100%;
-    min-height: 100%;
-    object-fit: cover;
-    height: 950px;
-
+    min-width: 100%;
     
 }
 
