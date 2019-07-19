@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Food Search</title>
+    <link rel="stylesheet" type="text/css" href="CSS/styles.css">
+</head>
+<body>
+    <header>
+        <button id="about">About</button>
+        <div id="modal">
+                <div id="modal-textbox">
+                        <h1>About the Page:</h1>
+                            <p>Search any food or recipe to find out nutritional or recipe ingredient information.</p>
+                            <button id=close><a href="#">Close</a></button>
+                </div>
+        </div>
+        <video id="video" autoplay muted loop>
+            <source src="Videos/Food_clips.mp4" type="video/mp4">
+        </video>
+        <div class="appTitle">
+            <h1>Search for a Food or Recipe!</h1>
+            <div id="searchandbuttoncontainer">
+                <div class="searchBar">
+                    <input id='searchBar' type='text' value='' placeholder="Search Food Here!">
+                </div>
+                <a href='#food'><button class="buttons" id='foodButton'>Search Food
+                </button></a>
+                <a href='#food'><button class="buttons" id='recipeButton'>Search Recipes</button></a>
+            </div>
+        </div>
+    </header>
+    <div id="food"></div>
+    <!-- <div class="foodImage"></div> -->
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+        integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+        crossorigin="anonymous"></script>
+    <script src="JS/app.js"></script>
+</body>
+</html>
