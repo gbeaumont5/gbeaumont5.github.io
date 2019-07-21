@@ -29,7 +29,7 @@ HTML, CSS, Javascript, jQuery, AJAX
 
 
 
-##Credits 
+## Credits 
 
 *EDAMAM Food Database API
 *EDAMAM Recipe Search API
