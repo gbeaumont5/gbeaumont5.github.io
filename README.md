@@ -22,19 +22,19 @@ HTML, CSS, Javascript, jQuery, AJAX
 
 ## Future Improvements 
 
-*Improved images from a differnet API
-*Add search categories for recipes
-*Add links to more recipe details
-*Add barcode scanning feature
+* Improved images from a differnet API
+* Add search categories for recipes
+* Add links to more recipe details
+* Add barcode scanning feature
 
 
 
 ## Credits 
 
-*EDAMAM Food Database API
-*EDAMAM Recipe Search API
-*w3schools.com
-*css-tricks.com
+* EDAMAM Food Database API
+* EDAMAM Recipe Search API
+* w3schools.com
+* css-tricks.com
 
 
 
