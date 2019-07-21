@@ -56,10 +56,12 @@ body {
     text-align: center;
     display: block;
     margin: auto;
+    
 }
 
 #modal-textbox a {
     text-decoration: none;
+    color: black;
 }
 
 .imageTable img {
@@ -148,10 +150,15 @@ table, th, td {
     border: 1px solid black;
 }
 
+table th {
+    font-size: 30px;
+}
+
 
 table tr {
     text-align: center;
     vertical-align: middle;
+    font-size: 20px;
     
 }
 
@@ -185,12 +192,20 @@ caption {
 .recipeImage {
     margin-right: 90px;
     vertical-align: column;
+    border: 5px solid black;
+}
+
+.ingredientList {
+    font-size: 25px;
 }
 
 #food {
-   
     width: 100%;
     height: 0vh;
+}
+
+.foodName {
+    text-transform: capitalize;
 }
 
 @media (max-width: 770px){

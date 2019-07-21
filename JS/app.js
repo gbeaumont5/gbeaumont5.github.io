@@ -23,7 +23,9 @@ $(() => {
 
                 ///creates h2 and gives it the food name. Appends to food div
                 const foodName = $('<h2>')
+                foodName.addClass('foodName');
                 foodName.text(data.hints[i].food.label);
+              
                 
                 foodName.insertBefore($imageTable);
 
