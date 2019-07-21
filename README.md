@@ -1,12 +1,12 @@
 # Food and Recipe Search Application
 
-The application consists of a food and recipe search. Users may enter any food and find nutrition facts or recipes for it. The search includes an image for of the food or recipe. 
+The application consists of a food and recipe search. Users may enter any food and find nutrition facts or recipes for it. The search includes an image of the food or recipe. 
 
-# Search for your favorite food and recipes!
+## Search for your favorite food and recipes!
 
 https://gbeaumont5.github.io/
 
-#Screenshots
+## Screenshots
 
 Note: Due to an issue git commits were lost through the project. However, they are included in the image below. 
 
@@ -16,11 +16,11 @@ Note: Due to an issue git commits were lost through the project. However, they a
 
 ![This link](https://github.com/gbeaumont5/gbeaumont5.github.io/blob/master/Images/Search%20Results%20.png?raw=true)
 
-#Frameworks Used:
+## Frameworks Used:
 
 HTML, CSS, Javascript, jQuery, AJAX
 
-#Future Improvements 
+## Future Improvements 
 
 *Improved images from a differnet API
 *Add search categories for recipes
@@ -29,7 +29,7 @@ HTML, CSS, Javascript, jQuery, AJAX
 
 
 
-#Credits 
+##Credits 
 
 *EDAMAM Food Database API
 *EDAMAM Recipe Search API
