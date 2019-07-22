@@ -25,17 +25,11 @@ $(() => {
                 const foodName = $('<h2>')
                 foodName.addClass('foodName');
                 foodName.text(data.hints[i].food.label);
-              
-                
                 foodName.insertBefore($imageTable);
 
+                //adds food image 
                 const foodImage = $(`<img src="${data.hints[i].food.image}" alt="${foodName}">`);
-                // console.log(data.hints[i].food.image)
                 $imageTable.append(foodImage);
-
-                // const $itemBtn = $('<button>');
-                // $itemBtn.text('See Recipes');
-                // $foodContainer.append($itemBtn);
 
                 $targetDiv.append($foodContainer);
 
@@ -154,7 +148,7 @@ $(() => {
                 //append table
                 $imageTable.append($table);
                 
-            } else { console.log('no image') }
+            } 
 
         }
         
@@ -209,8 +203,6 @@ $(() => {
             recipeName.insertBefore(recipeAndImage);
             
 
-            console.log(recipeName);
-
             const recipeImage = $(`<img src="${data.hits[i].recipe.image}" alt="${recipeName}">`);
             recipeImage.addClass('recipeImage');
             $(recipeAndImage).append(recipeImage);
@@ -237,8 +229,6 @@ $(() => {
 
     }
     
-    console.log(data);
-
    
 
     
